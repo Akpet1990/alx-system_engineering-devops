@@ -1,2 +1,2 @@
 #!/bin/bash
-d={a..z}{a..z} |t=list(itertools.permutations(d,len(d))) | for i in range(0,len(t)): | print(''.join(t[i]))
+printf "%s\n {a..z}{a..z} | grep -v "oo"
